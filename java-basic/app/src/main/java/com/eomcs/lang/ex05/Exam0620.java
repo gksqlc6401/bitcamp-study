@@ -13,10 +13,10 @@ public class Exam0620 {
     i--;
     i--;
 
-    System.out.println(i); // 5
+    System.out.println(i); // 4
 
     System.out.println(i--);
-    // System.out.println(5);
+    // System.out.println(4);
     // i = i - 1;
     System.out.println(i);
 

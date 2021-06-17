@@ -5,8 +5,8 @@ package com.eomcs.lang.ex05;
 public class Exam0412 {
   public static void main(String[] args) {
 
-    System.out.println(3 << 1);
-    //     0000000000 00000000 00000000 00000011 = 3
+    System.out.println(3 << 10);
+    //     000000000 00000000 00001100 00000000= 3
     //   0|000000000 00000000 00000000 00000011x = 비트이동
     //     000000000 00000000 00000000 000000110 = 6
 

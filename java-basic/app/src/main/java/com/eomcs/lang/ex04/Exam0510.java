@@ -27,7 +27,6 @@ public class Exam0510 {
 
     // 배열의 크기는 int 타입의 최대 값이다.
     int[] arr3 = new int[2147483645];//ok!
-    
   }
 }
 

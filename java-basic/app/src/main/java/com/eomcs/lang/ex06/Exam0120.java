@@ -27,6 +27,6 @@ public class Exam0120 {
       System.out.println("세금 납부해야 한다.");
     }
 
-
+    
   }
 }
