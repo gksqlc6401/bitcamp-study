@@ -7,7 +7,7 @@ public class Exam0442 {
     String[] names = {"홍길동", "임꺽정", "유관순", "윤봉길", "안중근"};
 
     // 증가치 조정
-    for (int i = 0; i < names.length; i += 2) {
+    for (int i = 0; i < names.length; i +=2) {
       System.out.println(names[i]);
     }
 

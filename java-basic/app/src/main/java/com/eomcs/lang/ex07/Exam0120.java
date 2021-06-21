@@ -12,7 +12,7 @@ public class Exam0120 {
   // => 이렇게 정의한 블록을 "메서드(method)" 또는
   //    "함수(function)"이라 부른다.
   // => 자바는 "메서드" 이름을 주로 사용한다.
-  public static void printSpaces(int len) {
+  static void printSpaces(int len) {
     for (int i = 0; i < len; i++) {
       System.out.print(" ");
     }

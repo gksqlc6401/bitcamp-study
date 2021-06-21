@@ -12,7 +12,7 @@ public class Exam0440 {
     names[3] = "윤봉길"; 
     names[4] = "안중근";*/
 
-    String[] names = new String[] {"홍길동", "임꺽정", "유관순", "윤봉길", "안중근"};
+    //String[] names = new String[] {"홍길동", "임꺽정", "유관순", "윤봉길", "안중근"};
 
 
     //String[] names = {"홍길동", "임꺽정", "유관순", "윤봉길", "안중근"};

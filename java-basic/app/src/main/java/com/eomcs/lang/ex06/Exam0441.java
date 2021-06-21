@@ -7,7 +7,7 @@ public class Exam0441 {
     String[] names = {"홍길동", "임꺽정", "유관순", "윤봉길", "안중근"};
 
     // 인덱스 범위 조정
-    for (int i = 2; i < 4; i++) {
+    for (int i = 2; i < 5; i++) {
       System.out.println(names[i]);
     }
 
