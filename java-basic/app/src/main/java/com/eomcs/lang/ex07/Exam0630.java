@@ -13,7 +13,7 @@ public class Exam0630 {
     java.util.Set keySet = props.keySet();
 
     for (Object key : keySet) {
-      String value = System.getProperty((String) key);
+      String value = System.getProperty((String) key);//key를 문자열로 꺼내야함
       System.out.printf("%s = %s\n", key, value);
     }
   }
