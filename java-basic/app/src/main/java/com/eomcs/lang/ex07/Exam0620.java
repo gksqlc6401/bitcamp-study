@@ -29,8 +29,9 @@ public class Exam0620 {
 
     System.out.printf("이름: %s\n", name);
     System.out.printf("총점: %d\n", sum);
-    System.out.printf("평균: %.1f\n", sum / 3f);
-  }
+    System.out.printf("평균: %.2f\n", sum / 3f);
+  }                     //f앞에 소수점을 붙이는 이유는 소수점 
+  //개수를 정하는것이다!
 }
 
 

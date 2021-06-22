@@ -14,13 +14,13 @@ public class Exam0540 {
 
     if (args.length < 4) {
       System.out
-          .println("실행 형식: java -cp ./bin/main com.eomcs.lang.ex07.Exam0540 이름 국어점수 영어점수 수학점수");
+      .println("실행 형식: java -cp ./bin/main com.eomcs.lang.ex07.Exam0540 이름 국어점수 영어점수 수학점수");
       return;
     }
 
     int sum = 0;
     for (int i = 1; i < args.length; i++)
-      sum += Integer.parseInt(args[i]);
+      sum += Integer.parseInt(args[i]);//Integer.parseInt(); 문자열을 인트값으로 바꿔주는 메소드
 
     System.out.printf("이름: %s\n", args[0]);
     System.out.printf("총점: %d\n", sum);
